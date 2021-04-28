@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 //test
 //importing file app_drawer.dar and appbar.dart
-import 'package:coach_kit/Menu.dart';
-import 'package:coach_kit/AppBar.dart';
+import 'package:kit301/Menu.dart';
+import 'package:kit301/AppBar.dart';
 
 void main() {
   runApp(MyApp());
@@ -38,23 +38,26 @@ class Home extends StatelessWidget{
           crossAxisCount: 2,
           children: <Widget>[
             Container(
-              padding: const EdgeInsets.all(8),
-              child: Card(
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(8)
-                ),
-                elevation: 4,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: <Widget>[
-                    Text('Training Monitor',
+                padding: const EdgeInsets.all(8),
+                child: Card(
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(8)
+                    ),
+                    elevation: 4,
+                    child: new InkWell(
+                      onTap:(){},
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            Text('Training Monitor',
+                            )
+                          ],
+                        )
                     )
-                  ],
                 )
-              )
             ),
             Container(
-              padding: const EdgeInsets.all(8),
+                padding: const EdgeInsets.all(8),
                 child: Card(
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8)
@@ -70,7 +73,7 @@ class Home extends StatelessWidget{
                 )
             ),
             Container(
-              padding: const EdgeInsets.all(8),
+                padding: const EdgeInsets.all(8),
                 child: Card(
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8)
@@ -86,7 +89,7 @@ class Home extends StatelessWidget{
                 )
             ),
             Container(
-              padding: const EdgeInsets.all(8),
+                padding: const EdgeInsets.all(8),
                 child: Card(
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8)
@@ -102,7 +105,7 @@ class Home extends StatelessWidget{
                 )
             ),
             Container(
-              padding: const EdgeInsets.all(8),
+                padding: const EdgeInsets.all(8),
                 child: Card(
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8)
@@ -118,7 +121,7 @@ class Home extends StatelessWidget{
                 )
             ),
             Container(
-              padding: const EdgeInsets.all(8),
+                padding: const EdgeInsets.all(8),
                 child: Card(
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8)
