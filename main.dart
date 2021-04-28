@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 //test
 //importing file app_drawer.dar and appbar.dart
-import 'package:kit301/Menu.dart';
-import 'package:kit301/AppBar.dart';
+import 'package:coach_kit/Menu.dart';
+import 'package:coach_kit/AppBar.dart';
 
 void main() {
   runApp(MyApp());
@@ -45,10 +45,15 @@ class Home extends StatelessWidget{
                     ),
                     elevation: 4,
                     child: new InkWell(
-                      onTap:(){},
+                        onTap:(){},
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
+                            IconButton(
+                              icon: Icon(Icons.flag),
+                              padding: new EdgeInsets.all(0.0),
+                              iconSize: 200.0,
+                            ),
                             Text('Training Monitor',
                             )
                           ],
@@ -63,12 +68,20 @@ class Home extends StatelessWidget{
                         borderRadius: BorderRadius.circular(8)
                     ),
                     elevation: 4,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Text('Training Monitor',
+                    child: new InkWell(
+                        onTap:(){},
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            IconButton(
+                              icon: Icon(Icons.person),
+                              padding: new EdgeInsets.all(0.0),
+                              iconSize: 200.0,
+                            ),
+                            Text('Training Monitor',
+                            )
+                          ],
                         )
-                      ],
                     )
                 )
             ),
@@ -79,12 +92,20 @@ class Home extends StatelessWidget{
                         borderRadius: BorderRadius.circular(8)
                     ),
                     elevation: 4,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Text('Activity',
+                    child: new InkWell(
+                        onTap:(){},
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            IconButton(
+                              icon: Icon(Icons.person),
+                              padding: new EdgeInsets.all(0.0),
+                              iconSize: 200.0,
+                            ),
+                            Text('Training Monitor',
+                            )
+                          ],
                         )
-                      ],
                     )
                 )
             ),
@@ -95,12 +116,20 @@ class Home extends StatelessWidget{
                         borderRadius: BorderRadius.circular(8)
                     ),
                     elevation: 4,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Text('Training Monitor',
+                    child: new InkWell(
+                        onTap:(){},
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            IconButton(
+                              icon: Icon(Icons.person),
+                              padding: new EdgeInsets.all(0.0),
+                              iconSize: 200.0,
+                            ),
+                            Text('Training Monitor',
+                            )
+                          ],
                         )
-                      ],
                     )
                 )
             ),
@@ -111,12 +140,20 @@ class Home extends StatelessWidget{
                         borderRadius: BorderRadius.circular(8)
                     ),
                     elevation: 4,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Text('Training Monitor',
+                    child: new InkWell(
+                        onTap:(){},
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            IconButton(
+                              icon: Icon(Icons.person),
+                              padding: new EdgeInsets.all(0.0),
+                              iconSize: 200.0,
+                            ),
+                            Text('Training Monitor',
+                            )
+                          ],
                         )
-                      ],
                     )
                 )
             ),
@@ -127,12 +164,20 @@ class Home extends StatelessWidget{
                         borderRadius: BorderRadius.circular(8)
                     ),
                     elevation: 4,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Text('Training Monitor',
+                    child: new InkWell(
+                        onTap:(){},
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            IconButton(
+                              icon: Icon(Icons.person),
+                              padding: new EdgeInsets.all(0.0),
+                              iconSize: 200.0,
+                            ),
+                            Text('Training Monitor',
+                            )
+                          ],
                         )
-                      ],
                     )
                 )
             ),
